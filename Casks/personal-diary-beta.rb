@@ -1,6 +1,6 @@
 cask 'personal-diary-beta' do
-  version '2.6-beta.2'
-  sha256 '7949adc3af4ad4c7d5d0a820798ae92ad10b9157423e4c9635c99d34d1092442'
+  version '2.6-beta.3'
+  sha256 'fc878edde7d85d3ad58953b8a6564de8cc603c1e8af63510093e3f9bba9df3dd'
 
   url "https://github.com/wernjie/personal-diary/releases/download/v#{version}/Personal-Diary-macOS-v#{version}.zip"
   name 'Personal Diary'
