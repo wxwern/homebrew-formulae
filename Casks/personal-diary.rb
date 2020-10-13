@@ -1,4 +1,4 @@
-cask 'personal-diary-beta' do
+cask 'personal-diary' do
   version '2.6'
   sha256 'f746a6aa9d8aa0251d443b38cc8faca1b1933cb2f7f59c55ccd04e6269a34c8a'
 
@@ -7,7 +7,7 @@ cask 'personal-diary-beta' do
   homepage 'https://www.wernjie.com/personal-diary/'
 
   auto_updates false
-  conflicts_with cask: 'personal-diary'
+  conflicts_with cask: 'personal-diary-beta'
   depends_on macos: '>= :catalina'
 
   app "Personal Diary.app"
