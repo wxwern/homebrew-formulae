@@ -1,6 +1,6 @@
 cask 'calculator-plus' do
-  version '2.0'
-  sha256 'b08324d8a8822e7e1ee295e89c0463f0532c372d89babfff381ec28ce73ef3f6'
+  version '2.1'
+  sha256 '36b46edde4f4f38a5f79ddaa9fe699b94e061682a5cf0804f3e51bd9fbf22306'
 
   url "https://downloads.wernjie.com/apps/calculator-plus/macos/Calculator-Plus-macOS-v#{version}.zip"
   name 'Calculator Plus'
