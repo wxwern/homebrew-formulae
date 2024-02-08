@@ -1,13 +1,12 @@
 cask 'calculator-plus' do
-  version '2.2'
-  sha256 'c6671ba6004405918e2fbff24ddb53dc64966b55ec86ba4f00a48a0e7dfa297f'
+  version '2.2.6'
+  sha256 '4b02031910c14f8a3cf5cdbc519f06437e362342f0fbf0a6bb55c7bf76f7e942'
 
-  url "https://downloads.wernjie.com/apps/calculator-plus/macos/Calculator-Plus-macOS-v#{version}.zip"
+  url "https://downloads.wern.cc/apps/calculator-plus/macos/Calculator-Plus-macOS-v#{version}.zip"
   name 'Calculator Plus'
-  homepage 'https://www.wernjie.com/calculator-plus/'
+  homepage 'https://wern.cc/app/calculator-plus'
 
   auto_updates false
-  conflicts_with cask: ''
   depends_on macos: '>= :catalina'
 
   app "Calculator Plus.app"
