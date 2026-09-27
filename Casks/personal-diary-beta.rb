@@ -8,7 +8,6 @@ cask 'personal-diary-beta' do
 
   auto_updates false
   conflicts_with cask: 'personal-diary'
-  depends_on macos: '>= :catalina'
 
   deprecate! date: "2023-04-29", because: "is preferable to use the TestFlight release to ensure beta installs won't be outdated"
   disable! date: "2024-02-15", because: "is only updated on TestFlight and no longer updated on Homebrew"

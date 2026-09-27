@@ -7,7 +7,6 @@ cask 'calculator-plus' do
   homepage 'https://wern.cc/app/calculator-plus'
 
   auto_updates false
-  depends_on macos: '>= :catalina'
 
   app "Calculator Plus.app"
 end

@@ -8,7 +8,6 @@ cask 'personal-diary' do
 
   auto_updates false
   conflicts_with cask: 'personal-diary-beta'
-  depends_on macos: '>= :catalina'
 
   deprecate! date: "2023-04-29", because: "has limitations compared to the Mac App Store release, and has no auto-update support"
   disable! date: "2024-02-15", because: "is no longer updated on Homebrew"
